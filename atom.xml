@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-02-01T15:21:27.928Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>aftermath</title>
+    <link href="http://yoursite.com/2020/02/01/aftermath/"/>
+    <id>http://yoursite.com/2020/02/01/aftermath/</id>
+    <published>2020-02-01T15:21:27.000Z</published>
+    <updated>2020-02-01T15:21:27.928Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nvm</title>
+    <link href="http://yoursite.com/2020/02/01/nvm/"/>
+    <id>http://yoursite.com/2020/02/01/nvm/</id>
+    <published>2020-01-31T17:45:23.638Z</published>
+    <updated>2020-01-31T17:45:23.638Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Tutorial 入门设置</title>
+    <link href="http://yoursite.com/2020/01/30/Hexo-Setup/"/>
+    <id>http://yoursite.com/2020/01/30/Hexo-Setup/</id>
+    <published>2020-01-29T18:50:52.000Z</published>
+    <updated>2020-02-01T20:02:49.250Z</updated>
+    
+    <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>“度日如年”，这个“年”我想大概说的就是2020的新年了。在家憋了5天之后，终于各个社交平台的下啦刷新都不出来新内容了。抱着既然闲着也是闲着的心情，那我们就从头搭建一个静态个人博客吧。之前尝试过Jekyll但是发现社区的活跃度不及Hexo，遂决定整体替换用Hexo搭建。这里分享一下个人搭建的过程以供大家参考。大家也可以尝试搭建一个拯救假期的无聊</p><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><p>这里我主要以我个人的环境来作为说明：</p><p></p><figure class="highlight bash hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">MacOS</span><br><span class="line">NodeJS Version: v12.14.1</span><br><span class="line">npm Version: 6.13.6</span><br></pre></td></tr></tbody></table></figure><p></p><p>这里可以看到想让Hexo成功运行起来还需要安装如下环境:</p><ol><li>Nodejs</li><li>npm</li></ol><blockquote><p>在这里<strong>强烈推荐</strong>大家使用NVM(Node version manager)来安装Node环境，方便之后的插件安装和管理。</p></blockquote><blockquote><p>安装方式大家可以参考 <em><a href="/2020/02/01/nvm">这篇文章</a></em></p></blockquote><p>安装好了Node和npm我们的环境准备工作就结束了下面就是Hexo的安装。</p><h2 id="下载Hexo"><a href="#下载Hexo" class="headerlink" title="下载Hexo"></a>下载Hexo</h2><p>首先打开大家各自熟悉的命令行软件，直接在命令行里面敲下面的命令</p><p></p><figure class="highlight bash hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure><p></p><p>这里在国内安装的话，因为众所周知的原因安装时间可能会非常长。这里可以把npm的源替换为taobao的国内源。</p><p></p><figure class="highlight bash hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g mirror-config-china --registry=http://registry.npm.taobao.org</span><br></pre></td></tr></tbody></table></figure><p></p><blockquote><p>这个时候有可能会遇到报错，这个是因为npm没有root权限所导致。<br>这里再次推荐大家参考这篇文章避免遇到这个问题</p></blockquote><p>等在命令行安装完成Hexo-cli之后我们就可以真正开始初始化一个Hexo博客项目了。</p><ol><li>首先在命令行定位到你想要Hexo文件保存的文件夹地址</li></ol></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;“度日如年”，这个“年”我想大概说的就是2020的新年了。在家憋了5天之后，终于各个社交平
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Tutorial" scheme="http://yoursite.com/tags/Tutorial/"/>
+    
+      <category term="个人博客设置" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bilibili</title>
+    <link href="http://yoursite.com/2020/01/29/bilibili/"/>
+    <id>http://yoursite.com/2020/01/29/bilibili/</id>
+    <published>2020-01-29T12:53:38.521Z</published>
+    <updated>2020-01-29T13:01:41.900Z</updated>
+    
+    <content type="html"><![CDATA[<html><head></head><body><h1 id="Bilibili高能进度条背景"><a href="#Bilibili高能进度条背景" class="headerlink" title="Bilibili高能进度条背景"></a>Bilibili高能进度条背景</h1><p>作为一个时常访问B站的用户，在11月底的时候突然注意到B站上线了一个新功能，B站称为<高能进度条>。产品的形式如下：</p><p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a7c32b1-edcb-4ebb-8a9a-11e2c6b9399e/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a7c32b1-edcb-4ebb-8a9a-11e2c6b9399e/Untitled.png"></p><p>从上图可见这个高能进度条的主要功能由如下几个部分组成：</p><ol><li>高能进度条开关</li><li>一个自定义的主题颜色</li><li>一个存在于普通进度条上面的热力/趋势图</li></ol><p>这个功能最早是在一个为了全人类进步的学习网站看到的。</p><p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5dd9610-88cf-4bf6-8731-4e0a4dd0b82b/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5dd9610-88cf-4bf6-8731-4e0a4dd0b82b/Untitled.png"></p><p>这个功能的上线实打实的增加了大家的体验，毕竟大家学习的时候都想要课代表来帮你总结知识点。这个常驻在进度条上面的趋势/热力区域大大提高了使用时的检索速度和检索精度。</p><p>国内对这个功能的使用最早是在爱奇艺上面看到的，整个功能的形态还是比较接近的</p><p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d3cd294-f8df-4270-97fd-4ecd40d1d3c2/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d3cd294-f8df-4270-97fd-4ecd40d1d3c2/Untitled.png"></p><p>可以看到爱奇艺的进度条不仅出现了热力图，并且同时有对段落的一个文字的总结。</p></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Bilibili高能进度条背景&quot;&gt;&lt;a href=&quot;#Bilibili高能进度条背景&quot; class=&quot;headerlink&quot; title=&quot;Bilibili高能进度条背景&quot;&gt;&lt;/a&gt;Bilibili高能进度条背景&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
